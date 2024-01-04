@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Poppins&family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dbe3f7;
+}
+
+nav {
+    padding: 4px 3px;
+    font-size: small;
+    background-color: #3b5998;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info{
+    float: left;
+    margin-top: 2.5%;
+    width: 60%;
+}
+
+.fb-login {
+    font-family: sans-serif;
+    font-size: 11.6px;
+    letter-spacing: -0.7;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: 100%;
+    padding: 2px;
+}
+
+#fb-Icon {
+    font-family: 'Titillium Web';
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.fb-login p {
+    color: #fff;
+    font-weight: 600;
+}
+
+#forget {
+    color: #5374b9;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 1.5px;
+    display: flex;
+}
+
+#login {
+    position: relative;
+    width: 50px;
+    height: 20px;
+    top: 13px;
+    margin-left: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    font-family: sans-serif;
+    background-color: #5c7fca;
+    border: 0px solid black;
+    cursor: pointer;
+    border-radius: 1px;
+    padding: 5px;
+}
+
+.password{
+    margin-left: 10px;
+}
+
+#pass, #em-ph{
+    margin-bottom: 1px;
+}
+
+@media screen and (min-width: 300px) {
+    .fb-login {
+        flex-direction: row;
+        width: 35%;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #fb-Icon {
+        font-size: 27px;
+    }
+
+    #login {
+        margin-top: 0;
+        margin-right: 20px;
+    }
+}
+
+#main-msg{
+    font-family: 'Titillium Web';
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+#feed{
+    margin-top: 2.5%;
+    width: 60px;
+    height: 60px;
+    background: transparent; 
+}
+
+.feeding{
+    margin-top: 15px;
+}
+
+#notification{
+    margin-top: -10px;
+    width: 47px;
+    height: 47px;
+}
+
+#connections{
+    width: 55px;
+    height: 55px;
+}
+
+#feed, #notification, #connections{
+    margin-left: 2%;
+    
+}
+
+.feed, .notify, .connect{
+    display: flex;
+    align-items: center;
+}
+
+#feedHigh, #sharing-lite, #connecting-lite{
+    font-family: 'Titillium Web';
+    font-weight: 700;
+}
+
+.sharing{
+    margin-left: 0.9%;
+}
+
+.connecting{
+    margin-bottom: 3px;
+    margin-left: 0.5%;
+}
+
+#notification{
+    margin-left: 2.7%;
+    margin-top: 0.3%;
+}
+
+.signup{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+#main-signup{
+    font-family: 'Titillium Web';
+}
+
+#p-mainsignup{
+    font-family: 'Titillium Web';
+    margin-bottom: 15px;
+}
+
+.info-signup{
+    display: inline-block;
+}
+
+#phone-number, #new-password{
+    width: 31.5%;
+    padding: 7px;
+    border-radius: 2.5px;
+    border: 0.5px solid gray;
+    
+}
+
+#phone-number{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#lname, #fname{
+    padding: 7px;
+    border-radius: 2.5px;
+    border: 0.5px solid gray;
+}
+
+#lname{
+    margin-left: 0.5%;
+}
+
+#birthday{
+    padding: 3px;
+    margin-top: 18px;
+    
+}
+
+#bday-newline{
+    margin-left: 12.3%;
+    position: relative;
+    bottom: 8px;
+}
+
+#full-bd-newline{
+    position: relative;
+    bottom: 6px;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+#male{
+    margin-left: 2%;
+}
+
+.terms{
+    margin-top: 10px;
+    display: flex;
+    font-size: x-small;
+    width: 280px;
+    line-height: 0.8rem;
+}
+
+#terms-link{
+    text-decoration: none;
+}
+
+#mainsignup{
+    display: flex;
+    visibility: visible;
+    font-size: 20px;
+    padding: 5px 50px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    justify-content: end;
+}
+.end{
+    display: flex;
+    justify-content: end;
+    margin-right: 27.3%;
+
+}
