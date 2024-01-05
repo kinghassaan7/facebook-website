@@ -168,6 +168,7 @@ nav {
 .signup{
     margin-top: 2%;
     margin-left: 3%;
+    display: inline-block;
 }
 
 #main-signup{
@@ -180,11 +181,11 @@ nav {
 }
 
 .info-signup{
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 #phone-number, #new-password{
-    width: 31.5%;
+    width: 364px;
     padding: 7px;
     border-radius: 2.5px;
     border: 0.5px solid gray;
@@ -196,24 +197,24 @@ nav {
     margin-bottom: 8px;
 }
 
+
 #lname, #fname{
     padding: 7px;
     border-radius: 2.5px;
     border: 0.5px solid gray;
-}
-
-#lname{
-    margin-left: 0.5%;
+    /* display: flex; */
+    width: 180px;
 }
 
 #birthday{
     padding: 3px;
     margin-top: 18px;
+    margin-bottom: 2px;
     
 }
 
 #bday-newline{
-    margin-left: 12.3%;
+    margin-left: 42%;
     position: relative;
     bottom: 8px;
 }
@@ -233,7 +234,7 @@ nav {
     margin-top: 10px;
     display: flex;
     font-size: x-small;
-    width: 280px;
+    width: 270px;
     line-height: 0.8rem;
 }
 
@@ -256,10 +257,11 @@ nav {
     font-weight: 600;
     height: 36px;
     justify-content: end;
+    cursor: pointer;
 }
 .end{
-    display: flex;
+    /* display: flex;
     justify-content: end;
-    margin-right: 27.3%;
+    margin-right: 28.5%; */
 
 }
